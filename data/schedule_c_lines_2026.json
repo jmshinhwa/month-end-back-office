@@ -1,0 +1,512 @@
+{
+  "form": "Schedule C (Form 1040) 2026",
+  "status": "IRS early-release DRAFT (Created 5/15/26) read 2026-10-25 - line numbers can still change before the final form; check https://www.irs.gov/ScheduleC before filing",
+  "src": "f1040sc-2026-draft",
+  "changed_vs_2025": "Line 16 is now 16a Mortgage (paid to banks, etc.) / 16b Vehicle loan / 16c Other. On the 2025 final form it was 16a Mortgage / 16b Other.",
+  "lines": {
+    "1": {
+      "name": "Gross receipts or sales",
+      "part": "income"
+    },
+    "2": {
+      "name": "Returns and allowances",
+      "part": "income"
+    },
+    "6": {
+      "name": "Other income",
+      "part": "income"
+    },
+    "8": {
+      "name": "Advertising"
+    },
+    "9": {
+      "name": "Car and truck expenses"
+    },
+    "10": {
+      "name": "Commissions and fees"
+    },
+    "11": {
+      "name": "Contract labor"
+    },
+    "12": {
+      "name": "Depletion"
+    },
+    "13": {
+      "name": "Depreciation and section 179 expense deduction",
+      "flag": "Needs Form 4562 - the pack lists the item, it does not compute depreciation."
+    },
+    "14": {
+      "name": "Employee benefit programs (other than on line 19)"
+    },
+    "15": {
+      "name": "Insurance (other than health)"
+    },
+    "16a": {
+      "name": "Interest: Mortgage (paid to banks, etc.)"
+    },
+    "16b": {
+      "name": "Interest: Vehicle loan",
+      "new_2026": true,
+      "flag": "Business-use part only. Line is new on the 2026 draft; on the 2025 form this went to 16b Other."
+    },
+    "16c": {
+      "name": "Interest: Other"
+    },
+    "17": {
+      "name": "Legal and professional services"
+    },
+    "18": {
+      "name": "Office expense",
+      "irs_text": "office supplies and postage"
+    },
+    "19": {
+      "name": "Pension and profit-sharing plans"
+    },
+    "20a": {
+      "name": "Rent or lease: Vehicles, machinery, and equipment"
+    },
+    "20b": {
+      "name": "Rent or lease: Other business property"
+    },
+    "21": {
+      "name": "Repairs and maintenance"
+    },
+    "22": {
+      "name": "Supplies (not included in Part III)"
+    },
+    "23": {
+      "name": "Taxes and licenses"
+    },
+    "24a": {
+      "name": "Travel"
+    },
+    "24b": {
+      "name": "Deductible meals",
+      "irs_text": "In most cases, the percentage is 50%."
+    },
+    "25": {
+      "name": "Utilities",
+      "irs_text": "do not deduct the base rate (including taxes) of the first phone line into your residence"
+    },
+    "26": {
+      "name": "Wages (less employment credits)"
+    },
+    "27a": {
+      "name": "Energy efficient commercial buildings deduction"
+    },
+    "27b": {
+      "name": "Other expenses (from line 48)",
+      "irs_text": "List the type and amount of each expense separately (Part V)."
+    },
+    "30": {
+      "name": "Expenses for business use of your home",
+      "irs_text": "simplified method: area used regularly and exclusively for business x $5, max 300 square feet"
+    }
+  },
+  "keywords": [
+    {
+      "line": "10",
+      "label": "Payment platform fees",
+      "words": [
+        "stripe fee",
+        "paypal fee",
+        "square fee",
+        "upwork fee",
+        "upwork service fee",
+        "fiverr fee",
+        "etsy fee",
+        "transaction fee",
+        "processing fee",
+        "merchant fee",
+        "platform fee",
+        "commission"
+      ]
+    },
+    {
+      "line": "8",
+      "label": "Advertising",
+      "words": [
+        "google ads",
+        "facebook ads",
+        "meta ads",
+        "linkedin ads",
+        "instagram ads",
+        "tiktok ads",
+        "advertising",
+        "sponsored post",
+        "business cards",
+        "vistaprint",
+        "flyers"
+      ]
+    },
+    {
+      "line": "11",
+      "label": "Contract labor",
+      "words": [
+        "contractor",
+        "subcontract",
+        "freelancer payment",
+        "virtual assistant"
+      ]
+    },
+    {
+      "line": "15",
+      "label": "Insurance (not health)",
+      "words": [
+        "liability insurance",
+        "professional liability",
+        "e&o insurance",
+        "errors and omissions",
+        "business insurance",
+        "hiscox",
+        "next insurance",
+        "general liability"
+      ]
+    },
+    {
+      "line": "16c",
+      "label": "Interest: other",
+      "words": [
+        "business loan interest",
+        "credit card interest",
+        "interest charge",
+        "line of credit interest"
+      ]
+    },
+    {
+      "line": "16b",
+      "label": "Vehicle loan interest",
+      "words": [
+        "auto loan interest",
+        "car loan interest",
+        "vehicle loan interest"
+      ]
+    },
+    {
+      "line": "17",
+      "label": "Legal and professional",
+      "words": [
+        "cpa",
+        "accountant",
+        "bookkeeper",
+        "bookkeeping",
+        "attorney",
+        "lawyer",
+        "legal fee",
+        "tax prep",
+        "tax preparation",
+        "legalzoom"
+      ]
+    },
+    {
+      "line": "18",
+      "label": "Office expense",
+      "words": [
+        "postage",
+        "usps",
+        "stamps.com",
+        "stamps",
+        "office supplies",
+        "printer paper",
+        "printer ink",
+        "toner",
+        "envelopes",
+        "staples",
+        "office depot"
+      ]
+    },
+    {
+      "line": "20b",
+      "label": "Rent: business property",
+      "words": [
+        "coworking",
+        "wework",
+        "regus",
+        "office rent",
+        "studio rent",
+        "storage unit",
+        "desk rental"
+      ]
+    },
+    {
+      "line": "20a",
+      "label": "Rent: equipment",
+      "words": [
+        "equipment rental",
+        "camera rental",
+        "lens rental",
+        "car lease",
+        "vehicle lease"
+      ]
+    },
+    {
+      "line": "21",
+      "label": "Repairs and maintenance",
+      "words": [
+        "repair",
+        "maintenance",
+        "screen replacement"
+      ]
+    },
+    {
+      "line": "23",
+      "label": "Taxes and licenses",
+      "words": [
+        "business license",
+        "license fee",
+        "permit",
+        "llc annual fee",
+        "annual report fee",
+        "franchise tax",
+        "registration fee"
+      ]
+    },
+    {
+      "line": "24a",
+      "label": "Travel",
+      "words": [
+        "airline",
+        "airlines",
+        "delta",
+        "united air",
+        "southwest",
+        "jetblue",
+        "alaska air",
+        "american air",
+        "hotel",
+        "marriott",
+        "hilton",
+        "hyatt",
+        "airbnb",
+        "amtrak",
+        "hertz",
+        "avis",
+        "enterprise rent",
+        "rental car",
+        "baggage fee",
+        "air lines",
+        "air line"
+      ]
+    },
+    {
+      "line": "24b",
+      "label": "Meals (50%)",
+      "words": [
+        "restaurant",
+        "cafe",
+        "coffee",
+        "starbucks",
+        "lunch",
+        "dinner",
+        "breakfast",
+        "bistro",
+        "grill",
+        "diner",
+        "client meal",
+        "business meal"
+      ]
+    },
+    {
+      "line": "25",
+      "label": "Utilities",
+      "words": [
+        "verizon",
+        "at&t",
+        "t-mobile",
+        "mobile phone",
+        "cell phone",
+        "phone bill",
+        "internet",
+        "comcast",
+        "xfinity",
+        "spectrum",
+        "google fi",
+        "mint mobile"
+      ]
+    },
+    {
+      "line": "9",
+      "label": "Parking and tolls",
+      "words": [
+        "parking",
+        "toll",
+        "e-zpass",
+        "ezpass",
+        "fastrak",
+        "sunpass"
+      ]
+    },
+    {
+      "line": "9",
+      "label": "Car operating costs (actual-expense method)",
+      "actual_car_cost": true,
+      "words": [
+        "gas station",
+        "fuel",
+        "shell",
+        "chevron",
+        "exxon",
+        "mobil",
+        "car wash",
+        "oil change",
+        "jiffy lube"
+      ]
+    },
+    {
+      "line": "27b",
+      "label": "Software and subscriptions",
+      "words": [
+        "adobe",
+        "figma",
+        "notion",
+        "canva",
+        "google workspace",
+        "microsoft 365",
+        "dropbox",
+        "zoom",
+        "slack",
+        "github",
+        "openai",
+        "chatgpt",
+        "anthropic",
+        "claude.ai",
+        "quickbooks",
+        "freshbooks",
+        "calendly",
+        "squarespace",
+        "wix",
+        "shopify",
+        "godaddy",
+        "namecheap",
+        "web hosting",
+        "hosting",
+        "domain",
+        "aws",
+        "vercel",
+        "saas",
+        "software",
+        "subscription"
+      ]
+    },
+    {
+      "line": "27b",
+      "label": "Education and training",
+      "words": [
+        "course",
+        "udemy",
+        "coursera",
+        "skillshare",
+        "masterclass",
+        "workshop",
+        "webinar",
+        "conference ticket",
+        "training"
+      ]
+    },
+    {
+      "line": "27b",
+      "label": "Bank fees",
+      "words": [
+        "bank fee",
+        "monthly service fee",
+        "wire fee",
+        "overdraft"
+      ]
+    },
+    {
+      "line": "22",
+      "label": "Supplies",
+      "words": [
+        "supplies",
+        "materials",
+        "props",
+        "packaging"
+      ]
+    }
+  ],
+  "personal_words": [
+    "netflix",
+    "hulu",
+    "disney+",
+    "spotify",
+    "gym",
+    "fitness",
+    "groceries",
+    "grocery",
+    "whole foods",
+    "trader joe",
+    "clothing",
+    "apparel",
+    "haircut",
+    "salon",
+    "pharmacy",
+    "cvs",
+    "walgreens",
+    "amazon prime video",
+    "parking ticket",
+    "traffic ticket",
+    "speeding ticket",
+    "irs penalty"
+  ],
+  "ambiguous_words": [
+    {
+      "words": [
+        "uber",
+        "lyft",
+        "taxi"
+      ],
+      "candidates": [
+        "24a",
+        "27b"
+      ],
+      "ask": "Was this ride part of a business trip away from home (24a Travel) or a local business errand? Tell me and I'll file it."
+    },
+    {
+      "words": [
+        "amazon",
+        "walmart",
+        "target",
+        "costco",
+        "best buy",
+        "apple.com",
+        "apple store"
+      ],
+      "candidates": [
+        "18",
+        "22",
+        "13",
+        "personal"
+      ],
+      "ask": "What did you buy? Office supplies (18), supplies (22), equipment over $2,500 (13), or personal?"
+    },
+    {
+      "words": [
+        "doordash",
+        "uber eats",
+        "grubhub"
+      ],
+      "candidates": [
+        "24b",
+        "personal"
+      ],
+      "ask": "Was this meal with a client or while travelling for business (24b, 50%)? Otherwise it is personal."
+    },
+    {
+      "words": [
+        "electric",
+        "electricity",
+        "water bill",
+        "gas bill",
+        "pg&e",
+        "con edison",
+        "duke energy"
+      ],
+      "candidates": [
+        "30",
+        "25",
+        "personal"
+      ],
+      "ask": "Home utility? With the simplified home office method it is covered by line 30 ($5 x sq ft) and not deducted separately."
+    }
+  ]
+}

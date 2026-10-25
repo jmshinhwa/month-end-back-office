@@ -1,0 +1,38 @@
+{
+  "tax_year": 2026,
+  "read_on": "2026-10-25",
+  "note": "Every figure was read from the IRS source named in its 'src' on read_on. Not tax advice: a worksheet calculator using the published figures.",
+  "sources": [
+    {"id": "f1040es", "title": "Form 1040-ES (2026), Estimated Tax for Individuals", "url": "https://www.irs.gov/pub/irs-pdf/f1040es.pdf", "revision": "2026 (Feb 12, 2026; PDF modified 2026-02-13)", "kind": "pdf", "sha256": "396ffad25baa737b33a67d27624f7444be3ac4e7245d287aebe5f89864f90b54"},
+    {"id": "ir-2025-103", "title": "IR-2025-103: tax year 2026 inflation adjustments", "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill", "revision": "Oct 9, 2025", "kind": "html", "must_contain": ["$16,100", "$32,200", "$24,150"]},
+    {"id": "rp-25-32", "title": "Rev. Proc. 2025-32 (2026 adjustments, QBI thresholds)", "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf", "revision": "PDF modified 2025-10-17", "kind": "pdf", "sha256": "e9ada115fb43a4af5ea326ca91edd40ab0bf29b9be01d2c13d7b8fa96214635b"},
+    {"id": "i1040sse", "title": "Instructions for Schedule SE (2025, latest posted)", "url": "https://www.irs.gov/pub/irs-pdf/i1040sse.pdf", "revision": "2025 (PDF modified 2025-11-06)", "kind": "pdf", "sha256": "ea9e3120706f9d5e21ce1c6cbec256b5e2e2bf02c44759773d9236462cf4d800"},
+    {"id": "tc560", "title": "Topic no. 560, Additional Medicare Tax", "url": "https://www.irs.gov/taxtopics/tc560", "revision": "page read 2026-10-25", "kind": "html", "must_contain": ["$250,000", "$125,000", "$200,000"]},
+    {"id": "mileage", "title": "Standard mileage rates", "url": "https://www.irs.gov/tax-professionals/standard-mileage-rates", "revision": "2026: IR-2025-128 (Jan 1-Jun 30) and IR-2026-29 (Jul 1-Dec 31)", "kind": "html", "must_contain": ["IR-2026-29", "76"]},
+    {"id": "f1040sc-2026-draft", "title": "Schedule C (Form 1040) 2026 - DRAFT, not for filing", "url": "https://www.irs.gov/pub/irs-dft/f1040sc--dft.pdf", "revision": "Created 5/15/26 (PDF modified 2026-05-28)", "kind": "pdf", "sha256": "287b4510dd847c11f6cbbcc98fee05ac5ff187cc18e1413f8759a4a7cd802224"},
+    {"id": "f1040sc-2025", "title": "Schedule C (Form 1040) 2025 (final)", "url": "https://www.irs.gov/pub/irs-pdf/f1040sc.pdf", "revision": "2025 (PDF modified 2026-01-06)", "kind": "pdf", "sha256": "ddf401dbe060467d39f90ad2abf645df1de31512821a150dc68a3882bbf19716"},
+    {"id": "i1040sc", "title": "Instructions for Schedule C (2025, latest posted)", "url": "https://www.irs.gov/pub/irs-pdf/i1040sc.pdf", "revision": "2025 (PDF modified 2026-01-05)", "kind": "pdf", "sha256": "b5536db91498a450572e37078d7d5ee8fdc400e385d4fee3a26c230a33e399b6"}
+  ],
+  "due_dates": {
+    "src": "f1040es",
+    "installments": ["2026-04-15", "2026-06-15", "2026-09-15", "2027-01-15"],
+    "jan_skip_rule": "You don't have to make the payment due January 15, 2027, if you file your 2026 tax return by February 1, 2027, and pay the entire balance due with your return."
+  },
+  "filing_statuses": {"single": "Single", "mfj": "Married filing jointly", "qss": "Qualifying surviving spouse", "mfs": "Married filing separately", "hoh": "Head of household"},
+  "standard_deduction": {"src": "f1040es", "single": 16100, "mfs": 16100, "mfj": 32200, "qss": 32200, "hoh": 24150},
+  "rate_schedules": {
+    "src": "f1040es",
+    "note": "rows: [over, base_tax, rate] - tax = base_tax + rate x (line 3 - over)",
+    "single": [[0, 0, 0.10], [12400, 1240.00, 0.12], [50400, 5800.00, 0.22], [105700, 17966.00, 0.24], [201775, 41024.00, 0.32], [256225, 58448.00, 0.35], [640600, 192979.25, 0.37]],
+    "mfj": [[0, 0, 0.10], [24800, 2480.00, 0.12], [100800, 11600.00, 0.22], [211400, 35932.00, 0.24], [403550, 82048.00, 0.32], [512450, 116896.00, 0.35], [768700, 206583.50, 0.37]],
+    "qss": [[0, 0, 0.10], [24800, 2480.00, 0.12], [100800, 11600.00, 0.22], [211400, 35932.00, 0.24], [403550, 82048.00, 0.32], [512450, 116896.00, 0.35], [768700, 206583.50, 0.37]],
+    "mfs": [[0, 0, 0.10], [12400, 1240.00, 0.12], [50400, 5800.00, 0.22], [105700, 17966.00, 0.24], [201775, 41024.00, 0.32], [256225, 58448.00, 0.35], [384350, 103291.75, 0.37]],
+    "hoh": [[0, 0, 0.10], [17700, 1770.00, 0.12], [67450, 7740.00, 0.22], [105700, 16155.00, 0.24], [201750, 39207.00, 0.32], [256200, 56631.00, 0.35], [640600, 191171.00, 0.37]]
+  },
+  "self_employment": {"src": "f1040es", "net_earnings_factor": 0.9235, "medicare_rate": 0.029, "ss_rate": 0.124, "ss_wage_base": 184500, "deductible_part": 0.5, "min_net_earnings": 400, "min_net_earnings_src": "i1040sse"},
+  "additional_medicare": {"src": "tc560", "rate": 0.009, "threshold": {"single": 200000, "hoh": 200000, "qss": 200000, "mfj": 250000, "mfs": 125000}},
+  "safe_harbor": {"src": "f1040es", "current_year_pct": 0.90, "prior_year_pct": 1.00, "prior_year_pct_high_agi": 1.10, "high_agi_over": 150000, "high_agi_over_mfs": 75000, "min_balance_due": 1000},
+  "qbi": {"src": "rp-25-32", "rate": 0.20, "threshold": {"single": 201750, "hoh": 201750, "qss": 201750, "mfj": 403500, "mfs": 201775}, "phase_in_end": {"single": 276750, "hoh": 276750, "qss": 276750, "mfj": 553500, "mfs": 276775}, "minimum_deduction": 400, "minimum_qbi_for_minimum": 1000},
+  "mileage_business_cents": {"src": "mileage", "periods": [{"from": "2026-01-01", "to": "2026-06-30", "cents": 72.5, "release": "IR-2025-128"}, {"from": "2026-07-01", "to": "2026-12-31", "cents": 76.0, "release": "IR-2026-29"}]},
+  "schedule_c": {"src": "i1040sc", "meals_deductible_pct": 0.50, "home_office_simplified_rate": 5, "home_office_simplified_max_sqft": 300, "de_minimis_per_item_no_afs": 2500}
+}

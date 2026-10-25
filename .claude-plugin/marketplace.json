@@ -1,0 +1,18 @@
+{
+  "name": "readystack",
+  "owner": {
+    "name": "ReadyStack",
+    "url": "https://getreadystack.com"
+  },
+  "description": "Free Claude Code plugins from ReadyStack.",
+  "plugins": [
+    {
+      "name": "month-end-back-office-lite",
+      "source": "./",
+      "description": "Your January 15, 2027 estimated tax payment from the 2026 Form 1040-ES worksheet, receipts sorted into 2026 Schedule C lines, overdue-invoice reminder drafts.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": ["freelancer", "schedule-c", "1040-es", "invoices"]
+    }
+  ]
+}

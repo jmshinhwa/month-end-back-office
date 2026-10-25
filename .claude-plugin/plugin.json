@@ -1,0 +1,13 @@
+{
+  "name": "month-end-back-office-lite",
+  "version": "1.0.0",
+  "description": "Free lite edition for US freelancers: your January 15, 2027 estimated tax payment from the 2026 Form 1040-ES worksheet (IRS source URL and read date on the result), a receipts CSV sorted into 2026 Schedule C lines, and reminder drafts for overdue invoices. Worksheet calculator, not tax advice.",
+  "author": {
+    "name": "ReadyStack",
+    "url": "https://getreadystack.com"
+  },
+  "homepage": "https://getreadystack.com/apps/freelancer-month-end-back-office-pack/",
+  "repository": "https://github.com/jmshinhwa/month-end-back-office",
+  "license": "MIT",
+  "keywords": ["freelancer", "schedule-c", "1040-es", "estimated-tax", "invoices", "self-employed"]
+}

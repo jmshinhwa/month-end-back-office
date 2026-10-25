@@ -1,0 +1,7 @@
+invoice_no,client,contact,email,issue_date,due_date,amount,paid,status,terms,pay_link,project
+1038,Harbor & Pine LLC,Accounts Payable,ap@harborpine.example,2026-08-05,2026-09-04,1800.00,0,open,Net 30. Late payments: 1.5% per month on the unpaid balance.,https://pay.example/inv-1038,Brand refresh
+1039,Northwind Apps,Priya Shah,billing@northwind.example,2026-08-20,2026-09-19,2600.00,2600.00,paid,Net 30,,App icons
+1041,Kestrel Co,Maria Lopez,maria@kestrel.example,2026-09-12,2026-10-12,2400.00,0,open,Net 30,,Pitch deck
+1043,Brightline Studio,Dev Patel,ops@brightline.example,2026-09-20,2026-10-20,3600.00,1200.00,open,Net 30,,Website phase 2
+1044,Oakline Bakery,Lena Ortiz,owner@oakline.example,2026-10-01,2026-10-31,950.00,0,open,Net 30,,Menu design
+1046,Kestrel Co,Maria Lopez,maria@kestrel.example,2026-10-10,2026-11-09,1300.00,0,open,Net 30,,Social kit
